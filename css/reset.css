@@ -4,7 +4,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, 
 	padding: 0;
 	border: 0;
 	outline: 0;
-	vertical-align: baseline;
+	/* vertical-align: baseline; */
 	background: transparent;
 	font-size: 100%;
 }
@@ -12,7 +12,7 @@ a {
 	margin:0;
 	padding:0;
 	font-size:100%;
-	vertical-align:baseline;
+	/* vertical-align:baseline; */
 	background:transparent;
 	outline:none;
 }
@@ -61,15 +61,15 @@ body {
 	font-size: 1em;
 }
 a, a:visited {
-	color: #edc600;
+	/* color: #edc600; */
 	text-decoration: none;
 }
 a:hover {
-	color: #edc600;
+	/* color: #edc600; */
 	text-decoration: none;
 }
 a:focus, a:active {
-	color: #edc600;
+	/* color: #edc600; */
 	text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6{

@@ -140,7 +140,7 @@ a.enroll-btn:hover {
 /* ------------ *Vantage ------------- */
 
 .vantage {
-  padding: 50px 0 130px;
+  padding: 50px 0 50px;
 }
 
 .title-v {
@@ -414,30 +414,21 @@ span.user-name {
 .price-item {
   width: 350px;
   background: #fff;
-  border-top: 2px;
   text-align: center;
   border-style: solid;
-  padding: 30px 0 15px;
-  *padding: 30px 20px 15px 55px;
+  /* *padding: 30px 20px 15px 55px; */
 
   -webkit-box-shadow: 0 3px 18px rgba(0, 0, 0, 0.16);
           box-shadow: 0 3px 18px rgba(0, 0, 0, 0.16);
 }
 
+.price-item-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .price-item:nth-child(2) {
   margin: 0 70px;
-}
-
-.price-item.col-reg {
-  border-color: #e83131;
-}
-
-.price-item.col-blue {
-  border-color: #62b9ff;
-}
-
-.price-item.col-green {
-  border-color: #6ec0a4;
 }
 
 .price-item h3 {
