@@ -1,0 +1,20 @@
+@font-face {
+  font-family: RobotoSlabRegular; /* Имя шрифта */
+  src: url(../fonts/RobotoSlabRegular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: FuturaDemiC;
+  src: url(../fonts/FuturaDemiC.ttf);
+}
+@font-face {
+  font-family: RalewayExtraLight;
+  src: url(../fonts/RalewayExtraLight.ttf);
+}
+@font-face {
+  font-family: LaoUI;
+  src: url(../fonts/LaoUI.ttf);
+}
+@font-face {
+  font-family: MyriadProRegular;
+  src: url(../fonts/MyriadProRegular.otf);
+}
