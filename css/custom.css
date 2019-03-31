@@ -6,3 +6,9 @@
 .course-image {
   width: 100%;
 }
+
+.worth-it-section {
+  /* background: #BDEDFF; */
+  background: #333333;
+  padding: 50px 0;
+}

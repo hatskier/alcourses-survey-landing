@@ -423,8 +423,8 @@ span.user-name {
 }
 
 .price-item-title {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .price-item:nth-child(2) {
@@ -492,7 +492,8 @@ button.btn-entry:hover {
 .main-footer {
   color: #a4a4a4;
   text-align: center;
-  background: #333333;
+  /* background: #333333; */
+  background: white;
   padding: 20px 0 30px;
   font-family: FuturaDemiC;
 }
