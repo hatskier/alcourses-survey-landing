@@ -28,22 +28,11 @@ $(document).ready(function(){
 
 });
 
-
-  // Analytics code
-  const timeout = 10000;
-  var events = [];
-
-  function logEvent(event) {
-    console.log(event);
-    events.push(event);
-  }
-
-  function sendEventsToServer() {
-    // TODO
-    console.log('Not implemented - it will send elements to server');
-    console.log('Current events: ');
-    console.log(events);
-    events = [];
-  }
-
-  setInterval(sendEventsToServer, timeout);
+function handleOutboundLinkClick(linkName) {
+  console.log('Link cliked: ' + linkName);
+  ga('send', 'event', {
+    eventCategory: 'Outbound Link',
+    eventAction: 'click',
+    eventLabel: linkName
+  });
+}
